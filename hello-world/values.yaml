@@ -11,7 +11,7 @@ imagePullSecrets:
   - name: ecr-secret  # Ensure it matches your created secret
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 8080  # Default port for Spring Boot apps
 
 resources: {}
